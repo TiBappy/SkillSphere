@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.postimg.cc/example-course1.png",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced JavaScript Mastery",
+    "instructor": "Jane Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Deep dive into modern JavaScript concepts and patterns.",
+    "image": "https://i.postimg.cc/example-course2.png",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "React.js Complete Guide",
+    "instructor": "Michael Brown",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Build dynamic web apps using React from scratch.",
+    "image": "https://i.postimg.cc/example-course3.png",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "Python for Beginners",
+    "instructor": "Emily Davis",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Start coding in Python with hands-on examples.",
+    "image": "https://i.postimg.cc/example-course4.png",
+    "category": "Programming"
+  },
+  {
+    "id": 5,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Chris Wilson",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn the basics of user interface and experience design.",
+    "image": "https://i.postimg.cc/example-course5.png",
+    "category": "Design"
+  },
+  {
+    "id": 6,
+    "title": "Data Structures & Algorithms",
+    "instructor": "Sophia Martinez",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Master DSA concepts for coding interviews and problem-solving.",
+    "image": "https://i.postimg.cc/example-course6.png",
+    "category": "Computer Science"
+  },
+  {
+    "id": 7,
+    "title": "Node.js Backend Development",
+    "instructor": "David Anderson",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build scalable backend APIs using Node.js and Express.",
+    "image": "https://i.postimg.cc/example-course7.png",
+    "category": "Development"
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Basics",
+    "instructor": "Olivia Thomas",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Introduction to machine learning concepts and models.",
+    "image": "https://i.postimg.cc/example-course8.png",
+    "category": "AI & Data"
+  },
+  {
+    "id": 9,
+    "title": "Full-Stack MERN Project",
+    "instructor": "James Lee",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build a complete MERN stack project step by step.",
+    "image": "https://i.postimg.cc/example-course9.png",
+    "category": "Development"
+  },
+  {
+    "id": 10,
+    "title": "Cybersecurity Essentials",
+    "instructor": "Daniel White",
+    "duration": "11 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Understand the basics of cybersecurity and online safety.",
+    "image": "https://i.postimg.cc/example-course10.png",
+    "category": "Security"
+  }
+]
