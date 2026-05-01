@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ServiceCard = ({ service }) => {
-  console.log(service, "service");
+  // console.log(service, "service");
   return (
     <div>
       <div className="border border-base-300">
@@ -15,7 +16,7 @@ const ServiceCard = ({ service }) => {
           /> */}
         </div>
         <div>
-          {/* <p>{service.instructor}</p> */}
+          <p>{service.instructor}</p>
         </div>
         <div>
           <div className="badge badge-soft badge-primary">Primary</div>
@@ -24,6 +25,9 @@ const ServiceCard = ({ service }) => {
         </div>
         <div>
           <p>{service.description}</p>
+        </div>
+        <div>
+          <Link href={`/courses/${service.id}`}><button className="btn btn-primary">View</button></Link>
         </div>
       </div>
     </div>

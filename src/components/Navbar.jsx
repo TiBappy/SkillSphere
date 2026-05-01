@@ -29,7 +29,7 @@ const Navbar = () => {
             className="input input-bordered w-24 md:w-auto"
           />
           <div className="flex items-center">
-            <div className="mr-4"><button>Sign Up</button></div>
+            <Link href="/register"><div className="mr-4"><button className="cursor-pointer transition-transform duration-300 hover:scale-105 hover:text-[#e68500]">Sign Up</button></div></Link>
             <div className=""><button className="btn bg-[#FF9500]">Log In</button></div>
           </div>
         </div>
