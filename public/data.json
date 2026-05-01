@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.postimg.cc/example-course1.png",
+    "image": "https://i.ibb.co/0R3htX61/value-1-e7f928f15a70b6d9bbb5-jpg.png",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Deep dive into modern JavaScript concepts and patterns.",
-    "image": "https://i.postimg.cc/example-course2.png",
+    "image": "https://i.ibb.co/0R3htX61/value-1-e7f928f15a70b6d9bbb5-jpg.png",
     "category": "Development"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Build dynamic web apps using React from scratch.",
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "",
     "category": "Development"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Start coding in Python with hands-on examples.",
-    "image": "https://i.postimg.cc/example-course4.png",
+    "image": "",
     "category": "Programming"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Learn the basics of user interface and experience design.",
-    "image": "https://i.postimg.cc/example-course5.png",
+    "image": "",
     "category": "Design"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Master DSA concepts for coding interviews and problem-solving.",
-    "image": "https://i.postimg.cc/example-course6.png",
+    "image": "",
     "category": "Computer Science"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Build scalable backend APIs using Node.js and Express.",
-    "image": "https://i.postimg.cc/example-course7.png",
+    "image": "",
     "category": "Development"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Introduction to machine learning concepts and models.",
-    "image": "https://i.postimg.cc/example-course8.png",
+    "image": "",
     "category": "AI & Data"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Build a complete MERN stack project step by step.",
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "",
     "category": "Development"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Understand the basics of cybersecurity and online safety.",
-    "image": "https://i.postimg.cc/example-course10.png",
+    "image": "",
     "category": "Security"
   }
 ]
