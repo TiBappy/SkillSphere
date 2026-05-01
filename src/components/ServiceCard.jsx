@@ -15,7 +15,7 @@ const ServiceCard = ({ service }) => {
           /> */}
         </div>
         <div>
-          <p>{service.instructor}</p>
+          {/* <p>{service.instructor}</p> */}
         </div>
         <div>
           <div className="badge badge-soft badge-primary">Primary</div>
