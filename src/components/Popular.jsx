@@ -1,4 +1,5 @@
 import React from "react";
+import PopularCard from "./PopularCard";
 
 const Popular = async () => {
   const res = await fetch("https://skill-sphere-teal.vercel.app/popular.json");
@@ -14,9 +15,7 @@ const Popular = async () => {
         </div>
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
          {
-            populars.map(Popular => <div key={Popular.id}>
-              {Popular.title}
-            </div>)
+            populars.map(popular => <PopularCard key={popular.id} popular={popular}></PopularCard>)
          }
         </div>
       </div>
