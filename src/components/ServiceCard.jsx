@@ -9,12 +9,13 @@ const ServiceCard = ({ service }) => {
         
         {/* IMAGE */}
         <div className="relative w-full h-48 flex-shrink-0 overflow-hidden">
-          {/* <Image
+          <Image
             src={service.image}
             alt={service.title || "service"}
-            fill
+            height={400}
+            width={500}
             className="object-cover group-hover:scale-105 transition-transform duration-500"
-          /> */}
+          />
         </div>
 
         {/* CONTENT */}

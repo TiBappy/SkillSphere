@@ -46,9 +46,11 @@ const Navbar = () => {
               </button>
             </Link>
 
-            <button className="btn bg-[#FF9500] text-white border-none rounded-xl hover:scale-105 transition">
-              Log In
-            </button>
+            <Link href="/login">
+              <button className="btn bg-[#FF9500] text-white w-full rounded-xl">
+                Log In
+              </button>
+            </Link>
           </div>
 
           {/* MOBILE MENU BUTTON */}
@@ -79,9 +81,11 @@ const Navbar = () => {
                 </button>
               </Link>
 
-              <button className="btn bg-[#FF9500] text-white w-full rounded-xl">
-                Log In
-              </button>
+              <Link href="/login">
+                <button className="btn bg-[#FF9500] text-white w-full rounded-xl">
+                  Log In
+                </button>
+              </Link>
             </div>
           </div>
         )}

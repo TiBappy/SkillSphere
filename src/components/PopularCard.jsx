@@ -8,12 +8,13 @@ const PopularCard = ({ popular }) => {
         
         {/* IMAGE */}
         <figure className="relative w-full h-52 overflow-hidden">
-          {/* <Image
+          <Image
             src={popular.image || "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"}
             alt={popular.title}
-            fill
+            height={400}
+            width={500}
             className="object-cover group-hover:scale-105 transition-transform duration-500"
-          /> */}
+          />
         </figure>
 
         {/* CONTENT */}
