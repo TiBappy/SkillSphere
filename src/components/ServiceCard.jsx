@@ -3,31 +3,53 @@ import Link from "next/link";
 import React from "react";
 
 const ServiceCard = ({ service }) => {
-  // console.log(service, "service");
   return (
-    <div>
-      <div className="border border-base-300">
-        <div>
+    <div className="h-full">
+      <div className="h-full flex flex-col bg-base-100 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 overflow-hidden group border border-base-200">
+        
+        {/* IMAGE */}
+        <div className="relative w-full h-48 flex-shrink-0 overflow-hidden">
           {/* <Image
             src={service.image}
-            width={200}
-            height={200}
-            alt="test"
+            alt={service.title || "service"}
+            fill
+            className="object-cover group-hover:scale-105 transition-transform duration-500"
           /> */}
         </div>
-        <div>
-          <p>{service.instructor}</p>
-        </div>
-        <div>
-          <div className="badge badge-soft badge-primary">Primary</div>
-          <div className="badge badge-soft badge-accent">Primary</div>
-          <div className="badge badge-soft badge-success">Primary</div>
-        </div>
-        <div>
-          <p>{service.description}</p>
-        </div>
-        <div>
-          <Link href={`/courses/${service.id}`}><button className="btn btn-primary">View</button></Link>
+
+        {/* CONTENT */}
+        <div className="p-5 flex flex-col flex-grow">
+          
+          {/* TOP CONTENT */}
+          <div className="space-y-3 flex-grow">
+            <h2 className="text-lg md:text-xl font-semibold line-clamp-2">
+              {service.title}
+            </h2>
+
+            <p className="text-sm text-gray-500">
+              By {service.instructor}
+            </p>
+
+            <div className="flex flex-wrap gap-2">
+              <span className="badge badge-primary badge-outline">Popular</span>
+              <span className="badge badge-accent badge-outline">Updated</span>
+              <span className="badge badge-success badge-outline">Certified</span>
+            </div>
+
+            <p className="text-sm text-gray-600 line-clamp-3">
+              {service.description}
+            </p>
+          </div>
+
+          {/* BUTTON (always bottom aligned) */}
+          <div className="mt-4">
+            <Link href={`/courses/${service.id}`}>
+              <button className="btn btn-primary w-full rounded-xl hover:scale-105 transition-all duration-300">
+                View Course
+              </button>
+            </Link>
+          </div>
+
         </div>
       </div>
     </div>
