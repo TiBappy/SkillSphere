@@ -35,8 +35,8 @@ const Navbar = () => {
             <Link href="/courses" className="hover:text-[#FF9500] transition">
               Courses
             </Link>
-            <Link href="/services" className="hover:text-[#FF9500] transition">
-              Services
+            <Link href="/profile" className="hover:text-[#FF9500] transition">
+              Profile
             </Link>
             <Link href="/about" className="hover:text-[#FF9500] transition">
               About
@@ -116,8 +116,8 @@ const Navbar = () => {
               <Link href="/courses" onClick={() => setOpen(false)}>
                 Courses
               </Link>
-              <Link href="/services" onClick={() => setOpen(false)}>
-                Services
+              <Link href="/profile" onClick={() => setOpen(false)}>
+                Profile
               </Link>
               <Link href="/about" onClick={() => setOpen(false)}>
                 About
