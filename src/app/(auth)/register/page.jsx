@@ -35,6 +35,11 @@ export default function RegisterPage() {
     }
     // console.log(data, error);
   };
+  const handleGoogleSubmit = async () => {
+    await authClient.signIn.social({
+      provider: "google"
+    })
+  }
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -101,6 +106,10 @@ export default function RegisterPage() {
           </Button>
         </div>
       </Form>
+      <div className="text-center text-yellow-400 text-lg font-bold">
+        <p>Or</p>
+        <Button onClick={handleGoogleSubmit} className="w-full">Sign In With Google</Button>
+      </div>
     </Card>
   );
 }
