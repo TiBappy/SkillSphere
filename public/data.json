@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.ibb.co/0R3htX61/value-1-e7f928f15a70b6d9bbb5-jpg.png",
+    "image": "https://i.ibb.co/RG7SpyxV/complete.png",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Deep dive into modern JavaScript concepts and patterns.",
-    "image": "https://i.ibb.co/0R3htX61/value-1-e7f928f15a70b6d9bbb5-jpg.png",
+    "image": "https://i.ibb.co/QjpcHNgW/javascript.webp",
     "category": "Development"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Build dynamic web apps using React from scratch.",
-    "image": "",
+    "image": "https://i.ibb.co/205hBj0N/react.webp",
     "category": "Development"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Start coding in Python with hands-on examples.",
-    "image": "",
+    "image": "https://i.ibb.co/mr7Fxtcx/images.jpg",
     "category": "Programming"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Learn the basics of user interface and experience design.",
-    "image": "",
+    "image": "https://i.ibb.co/ZzGBmL0g/ui.jpg",
     "category": "Design"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Master DSA concepts for coding interviews and problem-solving.",
-    "image": "",
+    "image": "https://i.ibb.co/qLbp31rD/data.jpg",
     "category": "Computer Science"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.7,
     "level": "Intermediate",
     "description": "Build scalable backend APIs using Node.js and Express.",
-    "image": "",
+    "image": "https://i.ibb.co/PsbVPcvn/images-1.jpg",
     "category": "Development"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Introduction to machine learning concepts and models.",
-    "image": "",
+    "image": "https://i.ibb.co/JjcM3zzs/machine.jpg",
     "category": "AI & Data"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Build a complete MERN stack project step by step.",
-    "image": "",
+    "image": "https://i.ibb.co/qLbp31rD/data.jpg",
     "category": "Development"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Understand the basics of cybersecurity and online safety.",
-    "image": "",
+    "image": "https://i.ibb.co/tMXKpqMw/cyber.webp",
     "category": "Security"
   }
 ]

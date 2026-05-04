@@ -9,7 +9,7 @@ const PopularCard = ({ popular }) => {
         {/* IMAGE */}
         <figure className="relative w-full h-52 overflow-hidden">
           <Image
-            src={popular.image || "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"}
+            src={popular.image}
             alt={popular.title}
             height={400}
             width={500}

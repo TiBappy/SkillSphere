@@ -88,7 +88,7 @@ const ProfilePage = () => {
           </h3>
         </div>
 
-        <div className="bg-base-100 shadow-lg rounded-xl p-6 text-center">
+        <div className="bg-base-100 shadow-lg rounded-xl p-6 text-center mt-6">
           <p className="text-gray-500">Completed Courses</p>
           <h3 className="text-3xl font-bold text-green-500">
             {profileData.completedCourses}

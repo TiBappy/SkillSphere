@@ -4,7 +4,7 @@
     "title": "React.js Complete Guide",
     "instructor": "Michael Brown",
     "rating": 4.9,
-    "image": "https://i.postimg.cc/example-course3.png",
+    "image": "https://i.ibb.co/99q7VhK6/reactcomplete.jpg",
     "button": "View Details"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Data Structures & Algorithms",
     "instructor": "Sophia Martinez",
     "rating": 4.9,
-    "image": "https://i.postimg.cc/example-course6.png",
+    "image": "https://i.ibb.co/qLbp31rD/data.jpg",
     "button": "View Details"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Full-Stack MERN Project",
     "instructor": "James Lee",
     "rating": 4.8,
-    "image": "https://i.postimg.cc/example-course9.png",
+    "image": "https://i.ibb.co/qLbp31rD/data.jpg",
     "button": "View Details"
   }
 ]
