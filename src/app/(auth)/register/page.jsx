@@ -14,7 +14,7 @@ import {
 import { useRouter } from "next/navigation";
 
 export default function RegisterPage() {
-    const router = useRouter()
+  const router = useRouter();
   const onSubmit = async (e) => {
     e.preventDefault();
 
@@ -30,16 +30,16 @@ export default function RegisterPage() {
 
       password,
     });
-    if(!error){
-        router.push('/')
+    if (!error) {
+      router.push("/");
     }
     // console.log(data, error);
   };
   const handleGoogleSubmit = async () => {
     await authClient.signIn.social({
-      provider: "google"
-    })
-  }
+      provider: "google",
+    });
+  };
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
@@ -108,7 +108,9 @@ export default function RegisterPage() {
       </Form>
       <div className="text-center text-yellow-400 text-lg font-bold">
         <p>Or</p>
-        <Button onClick={handleGoogleSubmit} className="w-full">Sign In With Google</Button>
+        <Button onClick={handleGoogleSubmit} className="w-full">
+          Sign In With Google
+        </Button>
       </div>
     </Card>
   );

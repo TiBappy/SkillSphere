@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.ibb.co/RG7SpyxV/complete.png",
+    "image": "/complete.png",
     "category": "Development"
   },
   {
@@ -106,7 +106,7 @@
     "rating": 4.5,
     "level": "Beginner",
     "description": "Understand the basics of cybersecurity and online safety.",
-    "image": "https://i.ibb.co/tMXKpqMw/cyber.webp",
+    "image": "cyber.webp",
     "category": "Security"
   }
 ]
