@@ -2,8 +2,8 @@ import React from "react";
 import PopularCard from "./PopularCard";
 
 const Popular = async () => {
-  // const res = await fetch("https://skill-sphere-teal.vercel.app/popular.json");
-  const res = await fetch("https://skill-sphere-teal.vercel.app/popular.json", {
+  // const res = await fetch("https://skill-sphere-teal.vercel.app/");
+  const res = await fetch("https://skill-sphere-teal.vercel.app/", {
     cache: "no-store",
   });
   const populars = await res.json();

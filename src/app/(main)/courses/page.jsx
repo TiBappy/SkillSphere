@@ -2,7 +2,7 @@ import ServiceCard from "@/components/ServiceCard";
 import React from "react";
 
 const CoursesPage = async () => {
-  const res = await fetch("https://skill-sphere-teal.vercel.app/data.json", {
+  const res = await fetch("http://localhost:3000/data.json", {
     cache: "no-store",
   });
   const services = await res.json();

@@ -1,37 +1,87 @@
-import React from "react";
+"use client";
+
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
-    <section className="w-full">
+    <section className="w-full overflow-hidden">
       <div className="max-w-6xl mx-auto px-4 py-16 md:py-24 text-center">
 
         {/* HEADING */}
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+        <motion.h1
+          initial={{ opacity: 0, y: 80 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
+        >
           <span className="text-[#FF9500]">Unlock</span> Your Creative Potential
-        </h1>
+        </motion.h1>
 
         {/* SUBTEXT */}
-        <div className="mt-6 space-y-3">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.3,
+            ease: "easeOut",
+          }}
+          className="mt-6 space-y-3"
+        >
           <p className="text-lg sm:text-xl md:text-2xl font-semibold">
             with Online Design and Development Courses.
           </p>
+
           <p className="text-sm sm:text-base text-gray-500 max-w-2xl mx-auto">
-            Learn from industry experts and enhance your skills with hands-on projects and real-world experience.
+            Learn from industry experts and enhance your skills with hands-on
+            projects and real-world experience.
           </p>
-        </div>
+        </motion.div>
 
         {/* BUTTONS */}
-        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          
-          <button className="btn bg-[#FF9500] text-white border-none px-6 rounded-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 0.8,
+            delay: 0.5,
+            ease: "easeOut",
+          }}
+          className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4"
+        >
+
+          {/* EXPLORE BUTTON */}
+          <motion.button
+            whileHover={{
+              scale: 1.05,
+              y: -3,
+            }}
+            whileTap={{
+              scale: 0.95,
+            }}
+            className="btn bg-[#FF9500] text-white border-none px-6 rounded-xl w-full sm:w-auto"
+          >
             Explore Courses
-          </button>
+          </motion.button>
 
-          <button className="btn btn-outline px-6 rounded-xl hover:scale-105 transition-all duration-300 w-full sm:w-auto">
+          {/* PRICE BUTTON */}
+          <motion.button
+            whileHover={{
+              scale: 1.05,
+              y: -3,
+            }}
+            whileTap={{
+              scale: 0.95,
+            }}
+            className="btn btn-outline px-6 rounded-xl w-full sm:w-auto"
+          >
             View Prices
-          </button>
+          </motion.button>
 
-        </div>
+        </motion.div>
 
       </div>
     </section>

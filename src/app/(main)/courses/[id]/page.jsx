@@ -4,7 +4,7 @@ import React from "react";
 const CourseDetailsPage = async ({ params }) => {
   const { id } = await params;
 
-  const res = await fetch("https://skill-sphere-teal.vercel.app/data.json");
+  const res = await fetch("http://localhost:3000/data.json");
   const services = await res.json();
   const service = services.find((s) => s.id == id);
 

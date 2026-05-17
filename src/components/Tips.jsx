@@ -1,5 +1,9 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+
 import PanaImage from "@/assets/pana.png";
 import ImageOne from "@/assets/image-one.png";
 import ImageTwo from "@/assets/Group 73.png";
@@ -25,36 +29,97 @@ const tipsData = [
 
 const LearningTips = () => {
   return (
-    <section className="py-16 px-4 bg-gray-50">
+    <section className="py-16 px-4 bg-gray-50 overflow-hidden">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        
-        {/* Left Image */}
-        <div className="flex justify-center">
-          <Image
-            src={PanaImage}
-            alt="Learning tips"
-            className="w-full max-w-md"
-          />
-        </div>
 
-        {/* Right Content */}
-        <div>
-          <p className="text-sm text-blue-600 font-semibold mb-2 uppercase tracking-wide">
+        {/* LEFT IMAGE */}
+        <motion.div
+          initial={{ opacity: 0, x: -80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
+          className="flex justify-center"
+        >
+          <motion.div
+            animate={{
+              y: [0, -12, 0],
+            }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            <Image
+              src={PanaImage}
+              alt="Learning tips"
+              className="w-full max-w-md"
+            />
+          </motion.div>
+        </motion.div>
+
+        {/* RIGHT CONTENT */}
+        <motion.div
+          initial={{ opacity: 0, x: 80 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{
+            duration: 0.8,
+            ease: "easeOut",
+          }}
+        >
+
+          {/* SMALL TITLE */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.2 }}
+            className="text-sm text-blue-600 font-semibold mb-2 uppercase tracking-wide"
+          >
             Learning Tips
-          </p>
+          </motion.p>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          {/* HEADING */}
+          <motion.h2
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            className="text-3xl md:text-4xl font-bold mb-6"
+          >
             Learn Smarter, Not Harder
-          </h2>
+          </motion.h2>
 
+          {/* TIPS */}
           <div className="space-y-5">
-            {tipsData.map((tip) => (
-              <div
+
+            {tipsData.map((tip, index) => (
+              <motion.div
                 key={tip.id}
-                className="flex items-start gap-4 p-5 rounded-2xl bg-white shadow-lg hover:shadow-xl transition duration-300"
+                initial={{ opacity: 0, y: 60 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.2,
+                }}
+                whileHover={{
+                  y: -6,
+                  scale: 1.02,
+                }}
+                className="flex items-start gap-4 p-5 rounded-2xl bg-white shadow-lg hover:shadow-2xl transition duration-300 border border-transparent hover:border-blue-100"
               >
-                {/* ICON WRAPPER (fixed size) */}
-                <div className="w-14 h-14 flex items-center justify-center bg-blue-50 rounded-xl shrink-0">
+
+                {/* ICON */}
+                <motion.div
+                  whileHover={{
+                    rotate: 6,
+                    scale: 1.1,
+                  }}
+                  className="w-14 h-14 flex items-center justify-center bg-blue-50 rounded-xl shrink-0"
+                >
                   <Image
                     src={tip.icon}
                     alt="tip icon"
@@ -62,15 +127,18 @@ const LearningTips = () => {
                     height={28}
                     className="object-contain"
                   />
-                </div>
+                </motion.div>
 
+                {/* TEXT */}
                 <p className="text-gray-600 text-sm md:text-base leading-relaxed">
                   {tip.text}
                 </p>
-              </div>
+
+              </motion.div>
             ))}
+
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </section>
